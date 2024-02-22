@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Github Finder</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2672FF;" >
+        <div class="container">
+            <a href="#" class="navbar-brand">Github Finder</a>
+        </div>
+    </nav>
+
+    <div class="SearchContainer">
+        <div class="search card card-body bg-light">
+            <h1 class="title">Search Github Users</h1>
+            <p class="description">Enter a username to fetch user profile and repos</p>
+            <input type="text" id="searchUser" class="form-control" placeholder="Github username...">
+            <br>
+            <button id="searchBtn" class="btn text-white" style="background-color: #2672FF;">Search</button>
+        </div>
+        <br>
+        <div id="profile"></div>
+    </div>
+
+    <footer class="mt-5 p-3 text-center bg-light text-muted">Github Finder &copy; toni</footer>
+    
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
